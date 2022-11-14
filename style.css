@@ -1,0 +1,54 @@
+html,body{
+  padding:0;
+  margin:0;
+  text-align:center;
+  background: black;
+  
+}
+#label1{
+  color:lightgreen;
+}
+#label2{
+  color:yellow;
+}
+#promo{
+  width:350px;
+  height:150px;
+  position:absolute;
+  top:80px;
+  left:50%;
+  transform: translate(-50%,-50%);
+  
+  
+}
+#main{
+  position:relative;
+  height:100vh;
+  width:100%;
+  
+}
+#btn{
+  position:absolute;
+  top:200px;
+  left:50%;
+  transform: translate(-50%,-50%);
+  
+  
+}
+#form{
+  position:absolute;
+  top:220px;
+  left:50%;
+  transform: translate(-50%,-50%);
+  
+  
+}
+table{
+ color:white;
+ width:100%;
+ font-size:100%;
+}
+table,tr,th,td{
+border:1px solid red;
+border-collapse:collapse;
+}
